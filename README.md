@@ -23,7 +23,7 @@ Enquanto Meta de votos não foi atingida? Faça
       Informar que o voto foi Nulo e adicionar ao contador "nulo"
    Se Voto for em Branco
       Informar que o voto foi em Branco e adicionar ao contador "branco"
-    Se Voto for Inválido 
+    Senão
       Informar que o voto foi inválido e não será computado
  Fim Enquanto      
    
