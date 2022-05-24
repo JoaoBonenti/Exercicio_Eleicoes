@@ -7,7 +7,7 @@ public class Eleicoes02 {
   int numEleitor = 0;
   int PT=0, PDT=0, PL=0, PSDB=0, nulo=0, branco=0;
   
-  //Uso do For como estrutura de repetição
+  //Uso do For para contagem e repetição do programa
   for(int i = 0; i < 50; i++)  {
     //Contador
     numEleitor++;
@@ -16,7 +16,7 @@ public class Eleicoes02 {
     System.out.print("Digite '1' para PT, '2' para PDT, '3' para PL, '4' para PSDB, '5' para voto Nulo, ou digite '6' para voto em branco!\nSua escolha e: ");
     int numero = scan.nextInt();
 
-   //Uso do Switch para determinar e organizar casos distintos
+   //Uso do Switch para determinar e organizar casos distintos, e também somar aos contadores
    switch (numero){
      case 1:
        System.out.println("Voce votou no Candito do partido PT!");
